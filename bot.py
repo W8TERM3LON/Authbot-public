@@ -4,13 +4,8 @@ from discord.ext import commands
 from discord.utils import get
 from dotenv import load_dotenv
 
-from tinydb import TinyDB, Query
-from tinydb.operations import delete, increment
-
 description = '''To authenticate users'''
 bot = commands.Bot(command_prefix='~', description=description)
-db = TinyDB('data.json')
-dquery = Query()
 client = discord.Client()
 intents = discord.Intents().all()
 
