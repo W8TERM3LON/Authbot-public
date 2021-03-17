@@ -1,4 +1,4 @@
-Copyright (C) 2020
+Copyright (C) 2021
 by W8TERM3LON
 
 Project:
