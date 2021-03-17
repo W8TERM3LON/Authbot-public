@@ -2,7 +2,7 @@ __Auth Bot__
 =============
 Source code to my user authorization bot on Discord.
 
-=============
+
 __To use:__
 
 **Windows:**
