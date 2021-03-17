@@ -45,7 +45,7 @@ async def on_message(message):
             #replace @student.school.edu with desired email 
         if '@student.school.edu' in message.content:
             await message.channel.send('Verifying....')
-            sleeping = random.randint(1,1)
+            sleeping = random.randint(1,6)
             print('Waiting ' + str(sleeping) + ' Seconds. (Verified)')
             time.sleep(sleeping)
             await message.author.add_roles(discord.utils.get(message.guild.roles, name='Verified')) #add the role
